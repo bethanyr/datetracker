@@ -1,4 +1,6 @@
 Datetracker::Application.routes.draw do
+  root :to => "importantdates#index"
+  resources :importantdates
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

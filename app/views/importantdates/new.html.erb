@@ -1,0 +1,17 @@
+<h2>New date</h2>
+<%= form_for(@importantdates) do |f| %>
+	<p>
+	  <%= f.label :importantdate %><br />
+	  <%= f.date_select :importantdate %>
+	</p>
+
+	<p>
+	  <%= f.label :name %><br />
+	  <%= f.text_field :name %>
+	</p>
+	<p>
+	  <%= f.label :description %><br />
+	  <%= f.text_area :description %>
+	</p>
+	<%= f.submit %>
+<% end %>
