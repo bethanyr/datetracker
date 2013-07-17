@@ -1,1 +1,7 @@
+<h2>Important Dates</h2>
+<ul>
+	<% @importantdates.each do |importantdate| %>
+	  <li><%= link_to importantdate.importantdate, importantdate %> : <%= importantdate.name %></li>
+	<% end %>
+</ul>
 <%= link_to "Add date", new_importantdate_path %>
