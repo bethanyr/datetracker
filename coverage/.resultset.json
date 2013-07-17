@@ -1,0 +1,49 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/bethanyr/examples/datetracker/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/bethanyr/examples/datetracker/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/bethanyr/examples/datetracker/app/helpers/importantdates_helper.rb": [
+        1,
+        null
+      ],
+      "/home/bethanyr/examples/datetracker/app/controllers/importantdates_controller.rb": [
+        1,
+        1,
+        2,
+        null,
+        1,
+        2,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null,
+        0,
+        0,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/home/bethanyr/examples/datetracker/app/models/importantdate.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1374069893
+  }
+}

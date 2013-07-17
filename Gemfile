@@ -24,11 +24,13 @@ gem 'jquery-rails'
 
 group :test, :development do
     gem 'rspec-rails'
+
 end
 
 group :test do
 	gem 'capybara'
 	gem 'factory_girl'
+	gem 'simplecov', :require => false
 end
 
 
