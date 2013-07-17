@@ -1,6 +1,6 @@
 class ImportantdatesController < ApplicationController
 	def index
-		@importantdates = Importantdate.all
+		@importantdates = Importantdate.where("importantdate >= (?)", Date.today).order("importantdate asc")
 	end
 	def new
 		@importantdates = Importantdate.new
