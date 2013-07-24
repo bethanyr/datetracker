@@ -1,7 +1,12 @@
-<h2>Upcoming Important Dates</h2>
+<p>
+<%= link_to_unless I18n.locale == :en, "English", locale:  :en %>
+|
+<%= link_to_unless I18n.locale == :fr, "Français", locale:  :fr %>
+</p>
+<h2><%= I18n.t(:date_header) %></h2>
 <ul>
 	<% @importantdates.each do |importantdate| %>
-	  <li><%= link_to importantdate.importantdate, importantdate %> : <%= importantdate.name %></li>
+	  <li><%=  I18n.localize(importantdate.importantdate, format: :long) %> - <%= importantdate.name %></li>
 	<% end %>
 </ul>
-<%= link_to "Add date", new_importantdate_path %>
+<%= link_to I18n.t(:add_date), new_importantdate_path %>

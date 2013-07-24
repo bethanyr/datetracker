@@ -4,6 +4,13 @@
       "/home/bethanyr/examples/datetracker/app/controllers/application_controller.rb": [
         1,
         1,
+        null,
+        1,
+        1,
+        6,
+        null,
+        null,
+        null,
         null
       ],
       "/home/bethanyr/examples/datetracker/app/helpers/application_helper.rb": [
@@ -17,23 +24,24 @@
       "/home/bethanyr/examples/datetracker/app/controllers/importantdates_controller.rb": [
         1,
         1,
-        2,
+        3,
         null,
         1,
         2,
         null,
         1,
-        2,
-        2,
-        2,
-        2,
+        1,
+        1,
+        1,
+        1,
         null,
         0,
         0,
         null,
         null,
         1,
-        2,
+        0,
+        null,
         null,
         null,
         null
@@ -44,6 +52,6 @@
         null
       ]
     },
-    "timestamp": 1374069893
+    "timestamp": 1374678567
   }
 }

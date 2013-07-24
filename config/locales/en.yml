@@ -3,3 +3,17 @@
 
 en:
   hello: "Hello world"
+  date_added: "Date is added."
+  add_date: "Add Date"
+  date_header: "Upcoming Important Dates"
+  back_link: "Back"
+  new_date: "New Date"
+  importantdate: "Important Date"
+  name: "Name"
+  description: "Description"
+
+  date:
+    formats:
+      default: ! '%Y-%m-%d'
+      long: ! '%B %d, %Y'
+

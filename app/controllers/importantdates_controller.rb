@@ -8,7 +8,7 @@ class ImportantdatesController < ApplicationController
 	def create
 		@importantdate = Importantdate.new(params[:importantdate])
   		if @importantdate.save
-  		  flash[:notice] = "Date added."
+  		  flash[:notice] = t(:date_added)
   		  redirect_to @importantdate
   	    else
   	      flash[:notice] = "Did not save"
@@ -18,5 +18,6 @@ class ImportantdatesController < ApplicationController
 	def show
       @importantdate = Importantdate.find(params[:id])
     end
-	
+
 end
+

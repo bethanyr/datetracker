@@ -1,6 +1,10 @@
 Datetracker::Application.routes.draw do
-  root :to => "importantdates#index"
-  resources :importantdates
+  #root :to => "importantdates#index"
+  #match '/:locale' => 'importantdates#index'
+  scope "/:locale", :locale => /en|fr/ do
+    resources :importantdates
+  end
+  #resources :importantdates
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
