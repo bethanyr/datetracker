@@ -1,6 +1,6 @@
 Datetracker::Application.routes.draw do
   #root :to => "importantdates#index"
-  #match '/:locale' => 'importantdates#index'
+  match '/:locale' => 'importantdates#index'
   scope "/:locale", :locale => /en|fr/ do
     resources :importantdates
   end
